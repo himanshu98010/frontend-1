@@ -48,7 +48,7 @@ export const AuthProvider = ({ children }) => {
     // Remove authorization header
     delete axios.defaults.headers.common["Authorization"];
     // Force page reload to ensure clean state
-    window.location.href = "/login";
+    window.location.href = "/";
   };
 
   const value = {
