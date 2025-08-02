@@ -10,7 +10,7 @@ const Navbar = () => {
     <nav className="navbar">
       <div className="nav-container">
         <Link to="/" className="nav-logo">
-          🌿 Arvyax
+          🌿 ArvyaX
         </Link>
 
         <div className="nav-menu">
